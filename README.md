@@ -6,7 +6,7 @@
 
 ## 项目预览
 
-!(Preview)[GIF.gif]
+![Preview](GIF.gif)
 
 ## 数据接口说明
 
