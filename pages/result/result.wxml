@@ -1,0 +1,9 @@
+<block wx:if="list.length > 0">
+  <view class="result-panel" wx:for="{{list}}" wx:key="{{key}}">
+    <image class="result-image" src="{{item.img}}" mode="aspectFill"></image>
+    <view class="result-desc">
+      <view class="result-title">{{item.title}}</view>
+      <view class="result-date">{{item.date}}</view>
+    </view>
+  </view>
+</block>

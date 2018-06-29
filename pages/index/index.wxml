@@ -1,0 +1,21 @@
+<view class="input-panel">
+  <picker class="input-control" mode="date" value="{{date}}" start="{{start}}" end="{{end}}" bindchange="onChangeDate">
+    <view class="pick">{{date}}</view>
+  </picker>
+  <view class="input-btn" bindtap="search">
+    <image mode="aspectFit" src="../../images/search.png"></image>
+  </view>
+</view>
+
+<view class="tag-panel" wx:if="{{logs.length > 0}}">
+  <view class="tag-title">我搜过的</view>
+  <view class="tag-area">
+    <view class="tag-item" wx:for="{{logs}}" wx:key="key" data-date="{{item}}" bindtap="changeDateByTag">{{item}}</view>
+  </view>
+</view>
+<view class="tag-panel" wx:if="{{words.length > 0}}">
+  <view class="tag-title">大家都在搜</view>
+  <view class="tag-area">
+    <view class="tag-item" wx:for="{{words}}" wx:key="key" data-date="{{item}}" bindtap="changeDateByTag">{{item}}</view>
+  </view>
+</view>

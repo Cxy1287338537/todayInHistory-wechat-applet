@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/result/result"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFDE08",
+    "navigationBarTitleText": "历史上的今天",
+    "navigationBarTextStyle": "black"
+  }
+}

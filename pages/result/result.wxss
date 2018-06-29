@@ -1,0 +1,37 @@
+.result-panel {
+  width: 750rpx;
+  height: 500rpx;
+  margin: 30rpx 0;
+  background-color: #000000;
+  position: relative;
+}
+.result-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.result-desc {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.result-title {
+  width: 750rpx;
+  height: 100rpx;
+  line-height: 50rpx;
+  padding: 25rpx 20rpx;
+  box-sizing: border-box;
+  font-size: 48rpx;
+  color: #f8f8f8;
+}
+.result-date {
+  width: 750rpx;
+  height: 86rpx;
+  line-height: 36rpx;
+  padding: 25rpx 20rpx;
+  box-sizing: border-box;
+  font-size: 34rpx;
+  color: #cccccc;
+}

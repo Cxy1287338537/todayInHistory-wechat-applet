@@ -1,0 +1,59 @@
+.input-panel {
+  width: 670rpx;
+  height: 100rpx;
+  margin: 30rpx 40rpx;
+  border-bottom: 2px solid #ccc;
+}
+.input-panel > .input-control {
+  width: 570rpx;
+  height: 100rpx;
+  float: left;
+}
+.input-panel > .input-btn {
+  width: 100rpx;
+  height: 100rpx;
+  float: right;
+}
+.input-btn > image {
+  width: 100rpx;
+  height: 100rpx;
+  box-sizing: border-box;
+  padding: 20rpx;
+}
+
+.pick {
+  width: 570rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: 0 20rpx;
+  color: #2c2c2c;
+}
+
+.tag-panel {
+  width: 670rpx;
+  height: auto;
+  margin: 30rpx 40rpx;
+}
+.tag-title {
+  display: inline-block;
+  padding:10rpx 20rpx;
+  background-color: #ffde08;
+  border-radius: 10rpx;
+  box-shadow: 0 0 1px #ccc;
+  font-size: 36rpx;
+}
+.tag-area {
+  width: 670rpx;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10rpx 20rpx;
+}
+.tag-item {
+  display: inline-block;
+  font-size: 32rpx;
+  padding: 10rpx 20rpx;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+  box-shadow: 0 0 1px #ccc;
+  margin: 20rpx;
+}
